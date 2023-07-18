@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAUTY SPACE</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header id="mainpage" class="header">
+
+        <!-- Header logo -->
+        <div class="header-logo">
+            <a href="#!" class="logo">
+                <img id="logoid" src="./img/header/header-logo.svg" onclick="location.reload(); return false;" alt="logo">
+            </a>
+        </div>
+
+        <div class="container">
+            <!-- Header socials -->
+            <div class="contacts-socials">
+                <div class="socials">
+                    <a
+                        href="https://booksy.com/pl-pl/instant-experiences/widget/189596,171618?instant_experiences_enabled=true&ig_ix=true&fbclid=IwAR0v2qdWuGyvYovKF2hgWBPoYHck9gkvQD--xY-wEvt7xoIY6KxP5VF23uA"><img
+                            src="./img/socials/booksy.svg" style="width: 25px; height: 24px;" class="social-img-booksy"
+                            alt="Booksy"></a>
+                    <a href="https://instagram.com/si_beautyspace_wroclaw?igshid=MjEwN2IyYWYwYw=="><img
+                            src="./img/socials/instagram.svg" class="social-img-instagram" alt="Instargam"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100088981594732"><img
+                            src="./img/socials/facebook.svg" class="social-img-facebook" alt="Facebook"></a>
+                </div>
+
+                <div class="contact-tel">
+                    <img src="./img/header/icon_phone.svg" alt="tel-logo" class="tel-logo"></a>
+                    <a href="tel: +48(514)526587" class="tel">+48 514 526 587</a>
+                </div>
+                <script>
+                    $(document).ready(function () {
+                        $('.tel').hover(function () {
+                            $(this).prev('.tel-logo').css('transform', 'rotate(25deg)');
+                        }, function () {
+                            $(this).prev('.tel-logo').css('transform', 'rotate(0deg)');
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+    </header>
+
+    <section id="data" class="get-in-touch">
+        <div class="container">
+
+            <div class="services">
+                <div class="form-information">
+                    <div class="services-row">
+                        <h2 id="service"><span>Manicure</span>/ Pedicure / Brwi / Makijaz</h2>
+                    </div>
+                    <form class="form">
+                        <div class="form_header">
+                            <h1 class="form_header_label">Wypełnij Formularz Żebyuzyskać Konsultacjęlub Zapisać Się Na
+                                Usługę</h1>
+                        </div>
+                        <div class="form_group" style="margin-top: 30px;">
+                            <input type="text" class="form_input" placeholder=" ">
+                            <label class="form_label">Imię</label>
+                        </div>
+                        <div class="form_group">
+                            <input type="text" class="form_input" placeholder=" ">
+                            <label class="form_label">Telefon</label>
+                        </div>
+                        <div class="form_group">
+                            <input type="text" class="form_input" placeholder=" ">
+                            <label class="form_label">Twój E-Mail</label>
+                        </div>
+                        <div class="form_group"
+                            style="display: flex; width: 303px; flex-direction: row; column-gap: 5px;">
+                            <input id="confirm" class="checkbox-custom" name="confirm" type="checkbox">
+                            <label for="confirm" class="checkbox-custom-label">* Wyrażam Zgodę Na Kontakt Telefoniczny
+                                Lub Mailowy Przedstawicieli W Celu Przedstawienia Oferty Lub Marketingu. Zapoznaj Się
+                                Z</label>
+                        </div>
+                        <button class="form_button">WYŚLIJ</button>
+                    </form>
+                    <div class="flowers">
+                        <img id="flower-left" src="/img/form/flower.svg" alt="flower-l">
+                        <img id="flower-right" src="/img/form/flower.svg" alt="flower-r">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <a
+                        href="https://booksy.com/pl-pl/instant-experiences/widget/189596,171618?instant_experiences_enabled=true&ig_ix=true&fbclid=IwAR0v2qdWuGyvYovKF2hgWBPoYHck9gkvQD--xY-wEvt7xoIY6KxP5VF23uA">
+                        <button class="button-booksy">BOOKSY</button>
+                    </a>
+                    <a href="tel: tel: +48(514)526587">
+                        <button class="button-zadzwon">ZADZWOŃ</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <div class="container">
+
+            <div class="local">
+                <a href="!#">
+                    <img class="local-img" src="/img/icons/location.svg" style="width: 40.22px; height: 47px;"
+                        alt="location-img">
+                </a>
+                <div class="address">
+                    <p class="address-label">Zabrodzka 1E</p>
+                    <img class="vector" src="img/icons/vector.svg"></span>
+                    <p class="address-label">Ul. Generała Władysława Sikorskiego 7E</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-schedule">
+        <div class="container">
+            <div class="schedule">
+                <h3 class="schedule-header">GODZINY OTWARCIA</h3>
+                <div class="work-time">
+                    <h4>PN-SB 10:00-20:00</h4>
+                    <h4>NDZ 10:00-16:00</h4>
+                </div>
+
+                <nav class="work-socials">
+                    <ul class="work-nav-list">
+                        <li class="work-nav-item"><a class="work-social-link"
+                                href="https://instagram.com/si_beautyspace_wroclaw?igshid=MjEwN2IyYWYwYw==">INSTAGRAM</a>
+                        </li>
+                        <li class="work-nav-item">
+                            <p>|</p>
+                        </li>
+                        <li class="work-nav-item"><a class="work-social-link"
+                                href="https://www.facebook.com/profile.php?id=100088981594732">FACEBOOK</a></li>
+                        <li class="work-nav-item">
+                            <p>|</p>
+                        </li>
+                        <li class="work-nav-item"><a class="work-social-link"
+                                href="https://booksy.com/pl-pl/instant-experiences/widget/189596,171618?instant_experiences_enabled=true&ig_ix=true&fbclid=IwAR0v2qdWuGyvYovKF2hgWBPoYHck9gkvQD--xY-wEvt7xoIY6KxP5VF23uA">BOOKSY</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a
+                    href="https://booksy.com/pl-pl/instant-experiences/widget/189596,171618?instant_experiences_enabled=true&ig_ix=true&fbclid=IwAR0v2qdWuGyvYovKF2hgWBPoYHck9gkvQD--xY-wEvt7xoIY6KxP5VF23uA">
+                    <button class="button-booksy-main">ZAPISZ SIĘ W BOOKSY</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="loop-slider">
+        <div class="container">
+            <div class="marquee">
+                <div class="marquee-wrapper">
+                    <img src="img/loop-slider/fox.png" style="height: 83px; width: 69.83px;" alt="fox">
+                    <img src="img/loop-slider/loreal.png" style="height: 73px; width: 131.22px;" alt="loreal">
+                    <img src="img/loop-slider/elleebana.svg" style="height: 62.13px; width: 213px;" alt="elleebana">
+                    <img src="img/loop-slider/nars.svg" style="height: 70.53px; width: 149px;" alt="nars">
+                    <img src="img/loop-slider/staleks.svg" style="height: 90px; width: 180px;" alt="staleks">
+                    <img src="img/loop-slider/mac.svg" style="height: 22.58px; width: 155.13px;" alt="mac">
+                    <img src="img/loop-slider/fox.png" style="height: 83px; width: 69.83px;" alt="fox">
+                    <img src="img/loop-slider/loreal.png" style="height: 73px; width: 131.22px;" alt="loreal">
+                    <img src="img/loop-slider/elleebana.svg" style="height: 62.13px; width: 213px;" alt="elleebana">
+                    <img src="img/loop-slider/nars.svg" style="height: 70.53px; width: 149px;" alt="nars">
+                    <img src="img/loop-slider/staleks.svg" style="height: 90px; width: 180px;" alt="staleks">
+                    <img src="img/loop-slider/mac.svg" style="height: 22.58px; width: 155.13px;" alt="mac">
+                    <img src="img/loop-slider/fox.png" style="height: 83px; width: 69.83px;" alt="fox">
+                    <img src="img/loop-slider/loreal.png" style="height: 73px; width: 131.22px;" alt="loreal">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-group">
+                <div class="gallery-header">
+                    <h3 class="gallery-label">GALERIA NASZEJ PRACY</h3>
+                </div>
+                <div class="gallery-slider">
+
+                    <div dir="rtl" class="swiper slider slider_bg">
+                        <div class="swiper-wrapper slider__wrapper">
+
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.1.svg" style="width: 274px;" alt="Picture">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.2.svg" style="width: 324px;" alt="Picture">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.3.svg" style="width: 249px;" alt="Picture">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.4.svg" style="width: 307px;" alt="Picture">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.5.svg" style="width: 324px;" alt="Picture">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.6.svg" style="width: 324px;" alt="Picture">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.7.svg" style="width: 291px;" alt="Picture">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.8.svg" style="width: 208px;" alt="Picture">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.9.svg" style="width: 357px;" alt="Picture">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.10.svg" style="width: 208px;" alt="Picture">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.11.svg" style="width: 299px;" alt="Picture">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper slider slider_main">
+                        <div class="swiper-wrapper slider__wrapper">
+
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/1.png" style="width: 390px;" alt="Picture" data-index="0">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/2.png" style="width: 390px;" alt="Picture" data-index="1">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.png" style="width: 370px;" alt="Picture" data-index="2">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/4.png" style="width: 300px;" alt="Picture" data-index="3">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/5.png" style="width: 390px;" alt="Picture" data-index="4">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/6.png" style="width: 330px;" alt="Picture" data-index="5">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/7.png" style="width: 360px;" alt="Picture" data-index="6">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/8.png" style="width: 250px;" alt="Picture" data-index="7">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/9.png" style="width: 430px;" alt="Picture" data-index="8">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/10.png" style="width: 250px;" alt="Picture" data-index="9">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/11.png" style="width: 350px;" alt="Picture" data-index="10">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container-gallery-socials">
+                    <div class="gallery-instagram-link">
+                        <a class="gallery-social-instagram"
+                            href="https://instagram.com/si_beautyspace_wroclaw?igshid=MjEwN2IyYWYwYw==">Zobaczyć więcej
+                            na instagramie</a>
+                    </div>
+                    <a
+                        href="https://booksy.com/pl-pl/instant-experiences/widget/189596,171618?instant_experiences_enabled=true&ig_ix=true&fbclid=IwAR0v2qdWuGyvYovKF2hgWBPoYHck9gkvQD--xY-wEvt7xoIY6KxP5VF23uA">
+                        <button id="gallery-button" class="button-booksy-main">ZAPISZ SIĘ W BOOKSY</button>
+                    </a>
+                </div>
+            </div>
+            <div class="pop-up">
+                <div class="container-pop-up">
+                    <span>&times;</span>
+                    <div class="swiper slider slider_main_zoom">
+                        <div class="swiper-wrapper slider__wrapper">
+
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.1.svg" style="width: 685.71px; height: 600px;"
+                                        alt="Picture-zoom" data-index="0">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.2.svg" style="width: 673px; height: 600px;"
+                                        alt="Picture-zoom" data-index="1">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.3.svg" style="width: 642.86px; height: 600px;"
+                                        alt="Picture-zoom" data-index="2">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.4.svg" style="width: 580.86px; height: 600px;"
+                                        alt="Picture-zoom" data-index="3">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.5.svg" style="width: 685.71px; height: 600px;"
+                                        alt="Picture-zoom" data-index="4">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.6.svg" style="width: 620.14px; height: 600px;"
+                                        alt="Picture-zoom" data-index="5">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.7.svg" style="width: 621.43px; height: 600px;"
+                                        alt="Picture-zoom" data-index="6">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.8.svg" style="width: 450.71px; height: 600px;"
+                                        alt="Picture-zoom" data-index="7">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.9.svg" style="width: 771.43px; height: 600px;"
+                                        alt="Picture-zoom" data-index="8">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.10.svg" style="width: 450.71px; height: 600px;"
+                                        alt="Picture-zoom" data-index="9">
+                                </div>
+                            </div>
+                            <div class="swiper-slide slider__item">
+                                <div class="slider__img">
+                                    <img src="img/slider/3.11.svg" style="width: 600px; height: 600px;"
+                                        alt="Picture-zoom" data-index="10">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="flowers-decor">
+        <div class="container">
+            <div class="flowers-bottom">
+                <img id="flower-left-bottom" src="/img/flowers/left-flower-bottom.svg" alt="flower-l-bottom">
+                <img id="flower-right-bottom" src="/img/flowers/right-flower-bottom.svg" alt="flower-r-bottom">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-socials">
+
+                <div class="footer-socials-first-row">
+                    <div class="footer-logo">
+                        <img src="img/footer/footer-logo.svg" alt="footer-logo">
+                    </div>
+                    <img src="img/footer/vector-bigger.svg" alt="vector-bigger">
+                    <nav class="footer-nav-socials-icon">
+                        <ul class="footer-nav-socials-icon-list">
+                            <li class="footer-nav-socials-icon-item"><a href="https://booksy.com/pl-pl/instant-experiences/widget/189596,171618?instant_experiences_enabled=true&ig_ix=true&fbclid=IwAR0v2qdWuGyvYovKF2hgWBPoYHck9gkvQD--xY-wEvt7xoIY6KxP5VF23uA" class="footer-nav-socials-icon-link">
+                                <img src="img/footer/footer-icon-booksy.svg" class="social-img-booksy" style="width: 25px; height: 24px;" alt="footer-icon-booksy">
+                            </a></li>
+                            <li class="footer-nav-socials-icon-item"><a href="https://instagram.com/si_beautyspace_wroclaw?igshid=MjEwN2IyYWYwYw==" class="footer-nav-socials-icon-link">
+                                <img src="img/footer/footer-icon-instagram.svg" class="social-img-instagram" alt="footer-icon-instagram">
+                            </a></li>
+                            <li class="footer-nav-socials-icon-item"><a href="https://www.facebook.com/profile.php?id=100088981594732" class="footer-nav-socials-icon-link">
+                                <img src="img/footer/footer-icon-facebook.svg" class="social-img-facebook" alt="footer-icon-facebook">
+                            </a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer-socials-second-row">
+                    <nav class="footer-socials-nav">
+                        <ul class="footer-socials-nav-list">
+                            <li class="footer-socials-nav-item" style="width: 140px;"><a class="footer-socials-link"
+                                    href="https://instagram.com/si_beautyspace_wroclaw?igshid=MjEwN2IyYWYwYw==">Instagram</a>
+                            </li>
+                            <li style="height: 16px;">
+                                <img src="img/footer/vector_smaller.svg" alt="vector-smaller">
+                            </li>
+                            <li class="footer-socials-nav-item" style="width: 138px;"><a class="footer-socials-link"
+                                    href="https://www.facebook.com/profile.php?id=100088981594732">Facebook</a></li>
+                            <li style="height: 16px;">
+                                <img src="img/footer/vector_smaller.svg" alt="vector-smaller">
+                            </li>
+                            <li class="footer-socials-nav-item" style="width: 108px;"><a class="footer-socials-link"
+                                    href="https://booksy.com/pl-pl/instant-experiences/widget/189596,171618?instant_experiences_enabled=true&ig_ix=true&fbclid=IwAR0v2qdWuGyvYovKF2hgWBPoYHck9gkvQD--xY-wEvt7xoIY6KxP5VF23uA">Booksy</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer-label">
+                <p class="footer-p">© 2023 SiBeautySpace</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
