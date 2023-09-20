@@ -1,0 +1,1009 @@
+@media only screen and (max-width: 1450px) {
+
+    .tel-logo {
+        width: 24px;
+        height: 30px;
+    }
+
+    .tel {
+        font-size: 21px;
+        line-height: 21px;
+    }
+
+    .marquee {
+        width: 1330px;
+    }
+
+    .slider_main {
+        max-width: 1330px;
+    }
+    
+    .slider_bg {
+        max-width: 1330px;
+    }
+
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .marquee {
+        width: 1260px;
+    }
+
+    .slider_main {
+        max-width: 1260px;
+    }
+    
+    .slider_bg {
+        max-width: 1260px;
+    }
+
+    .slider_main_zoom .slider__img {
+        height: 480px;
+    }
+
+    .span-close {
+        top: 118px;
+        right: 2px;
+    }
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .marquee {
+        width: 1190px;
+    }
+
+    .slider_main {
+        max-width: 1190px;
+    }
+    
+    .slider_bg {
+        max-width: 1190px;
+    }
+
+}
+
+@media only screen and (max-width: 1210px) {
+
+    .tel-logo {
+        width: 22px;
+        height: 28px;
+    }
+
+    .tel {
+        font-size: 19px;
+        line-height: 19px;
+    }
+
+    .marquee {
+        width: 1100px;
+    }
+
+    .gallery {
+        height: 865px;
+      }
+
+    .gallery-slider {
+        height: 428px;
+      }
+
+    .slider_main {
+        max-width: 1100px;
+    }
+    
+    .slider_bg {
+        max-width: 1100px;
+    }
+
+    .slider_main .slider__img {
+        height: 330px;
+    }
+
+    .slider_main .slider__img img {
+        height: 330px;
+        max-width: 350px;
+    }
+
+    .services {
+        max-width: 900px;
+    }
+
+    .gallery-group {
+        gap: 60px;
+      }
+
+      .pop-up .slider_main_zoom {
+        max-width: 700px;
+    }
+
+    .container-pop-up {
+        width: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 1120px) {
+
+    .header-logo {
+        height: 100px;
+        padding-top: 48px;
+    }
+
+    #logoid {
+        width: 335.46px;
+        height: 47.69px;
+    }
+
+    .services {
+        margin-top: 50px;
+        max-width: 800px;
+    }
+
+    #service{
+        font-size: 30px;
+        line-height: 47px;
+    }
+
+    .form {
+        width: 550px;
+        padding-top: 40px;
+    }
+
+    .form_header_label {
+        font-size: 22px;
+        line-height: 22px;
+        width: 450px;
+        height: 45px;
+    }
+
+    #flower-left {
+        width: 180px;
+        height: 175px;
+        right: 200px;
+        bottom: 9px;
+    }
+    
+    #flower-right {
+        width: 180px;
+        height: 175px;
+        left: 193px;
+        top: -144px;
+    }
+
+    button {
+        height: 40px;
+        font-size: 21px;
+        line-height: 21px;
+        padding: 10px 0 10px 0;
+    }
+
+    .form_button {
+        width: 115px;
+    }
+
+    .button-booksy {
+        width: 110px;
+    }
+    
+    .button-zadzwon {
+        width: 135px;
+    }
+
+    .location {
+        height: 435px;
+    }
+
+    .schedule-header {
+        height: 38px;
+        font-size: 41px;
+        text-align: center;
+    }
+
+    .work-time {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .work-nav-list {
+        font-size: 23px;
+    }
+
+    .button-booksy-main {
+        width: 330px;
+        height: 55px;
+        font-size: 25px;
+        line-height: 25px;
+        padding: 14px 0 10px 0;
+    }
+
+    .loop-slider {
+        height: 390px;
+    }
+
+    .gallery-label {
+        font-size: 41px;
+        line-height: 38px;
+        font-weight: 400;
+      }
+
+    .marquee {
+        width: 1003px;
+        height: 120px;
+    }
+
+    .slider_main {
+        max-width: 1003px;
+    }
+    
+    .slider_bg {
+        max-width: 1003px;
+    }
+
+    .flowers-bottom {
+        height: 210.62px;
+    }
+
+    .footer-socials-link {
+        font-size: 23px;
+    }
+
+    .footer {
+        height: 320.62px;
+    }
+
+    .pop-up .slider_main_zoom {
+        max-width: 600px;
+    }
+
+    .container-pop-up {
+        width: 700px;
+    }
+
+    .slider_main_zoom .slider__img {
+        height: 450px;
+    }
+
+    .span-close {
+        top: 135px;
+        right: 15px;
+    }
+
+    .span-close-icon{
+        width: 53px;
+        height: 53px;
+    }
+}
+
+@media (max-width: 1023px) {
+
+    .header-logo {
+        height: 95px;
+        padding-top: 43px;
+    }
+
+    #logoid {
+        width: 330.46px;
+        height: 45.69px;
+    }
+
+    .contact-tel {
+        margin-right: 80px;
+    } 
+
+    .services {
+        margin-top: 50px;
+        max-width: 720px;
+    }
+
+    #service{
+        font-size: 29px;
+        line-height: 46px;
+    }
+
+    .form {
+        width: 520px;
+    }
+
+    #flower-left {
+        width: 160px;
+        height: 155px;
+        right: 175px;
+        bottom: 9px;
+    }
+    
+    #flower-right {
+        width: 160px;
+        height: 155px;
+        left: 188px;
+        top: -130px;
+    }
+
+    .location {
+        height: 400px;
+    }
+
+    .loop-slider {
+        height: 350px;
+    }
+
+    .marquee {
+        width: 860px;
+        height: 110px;
+    }
+
+    .slider_main {
+        max-width: 860px;
+    }
+    
+    .slider_bg {
+        max-width: 860px;
+    }
+
+    .slider_main .slider__img {
+        height: 310px;
+    }
+
+    .slider_main .slider__img img {
+        height: 310px;
+        max-width: 310px;
+    }
+
+    #slider-main-photo-4 {
+        max-width: 250px;
+    }
+
+    .flowers-bottom {
+        height: 190.62px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+
+    .header-logo {
+        height: 90px;
+        padding-top: 45px;
+    }
+
+    #logoid {
+        width: 310.46px;
+        height: 43.69px;
+    }
+
+    .contact-tel {
+        margin-right: 50px;
+    } 
+
+    .tel-logo {
+        width: 20px;
+        height: 26px;
+    }
+
+    .tel {
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .services {
+        max-width: 675px;
+    }
+
+    .form {
+        width: 470px;
+    }
+
+    .form_header_label {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    #flower-left {
+        right: 150px;
+        bottom: 9px;
+    }
+
+    #flower-right {
+        left: 170px;
+        top: -130px;
+    }
+
+    .local-img {
+        width: 33.22px; 
+        height: 40px;
+  }
+
+    #service{
+        font-size: 28px;
+        line-height: 46px;
+    }
+
+    .marquee {
+        width: 740px;
+        height: 120px;
+    }
+
+    .slider_main {
+        max-width: 740px;
+    }
+    
+    .slider_bg {
+        max-width: 740px;
+    }
+
+    .pop-up .slider_main_zoom {
+        max-width: 520px;
+    }
+
+    .container-pop-up {
+        width: 620px;
+    }
+
+    .slider_main_zoom .slider__img {
+        height: 380px;
+    }
+
+    .span-close {
+        top: 169px;
+        right: 13px;
+    }
+
+    .span-close-icon{
+        width: 53px;
+        height: 53px;
+    }
+
+    .confirmation-title{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .contacts-socials {
+        box-shadow: none;
+    }
+
+    .contact-tel {
+        position: relative;
+        top: 948px;
+        margin: auto;
+    } 
+
+    .get-in-touch {
+        height: auto;
+    }
+
+    .form {
+        width: 500px;
+    }
+
+    .services {
+        display: block;
+        margin-top: 0px;
+    }
+
+    #flower-left {
+        transform: rotate(-50deg);
+        right: 190px;
+        opacity: 70%;
+    }
+
+    #flower-right {
+        transform: rotate(5deg);
+        left: 130px;
+        top: 600px;
+        opacity: 80%;
+    }
+
+    .buttons {
+        position: relative;
+        top: 330px;
+        gap: 89px;
+    }
+
+    .button-booksy {
+        width: 146px;
+    }
+    
+    .button-zadzwon {
+        width: 171px;
+    }
+
+    .location{
+        margin-bottom: 419px;
+        height: 295px;
+    }
+
+    .tel {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    #service{
+        font-size: 27px;
+        line-height: 45px;
+    }
+
+    .services {
+        max-width: 650px;
+    }
+
+    .marquee {
+        width: 650px;
+        height: 120px;
+    }
+
+    .gallery {
+        height: 968px;
+    }
+
+    .gallery-group {
+        gap: 57px;
+    }
+
+    .container-gallery-socials {
+        margin-top: 18px;
+    }
+
+    .gallery-slider-mobile {
+        display: block;
+        height: 504px;
+        min-width: 0;
+    }
+
+    .slider_main_mobile {
+        position: relative;
+        max-width: 650px;
+        column-gap: 24px;
+        top: 24px;
+    }
+    
+    .slider_bg_mobile {
+        max-width: 650px;
+    }
+
+    .slider_main_mobile .slider__item {
+        width: auto;
+    }
+    
+    .slider_bg_mobile .slider__item {
+        width: auto;
+    }
+    
+    .slider_main_mobile .slider__img {
+        text-align: center;
+        height: 240px;
+    }
+    
+    .slider_bg_mobile .slider__img {
+        text-align: center;
+        height: 240px;
+    }
+
+    .gallery-slider {
+        display: none;
+      }
+}
+
+@media only screen and (max-width: 660px) {
+
+    .header-logo {
+        height: 80px;
+        padding-top: 38px;
+    }
+
+    #logoid {
+        width: 229.8px;
+        height: 32.99px;
+    }
+
+    .form {
+        width: 450px;
+    }
+
+    #flower-left {
+        right: 160px;
+    }
+
+    #flower-right {
+        left: 100px;
+        top: 593px;
+    }
+
+    #service{
+        display: none;
+    }
+
+    .services {
+        max-width: 450px;
+        height: 432px;
+    }
+
+    .buttons {
+        top: 295px;
+    }
+
+    .contact-tel {
+        top: 870px;
+    }
+
+    .tel-logo {
+        width: 18px;
+        height: 26px;
+    }
+
+    .address-label{
+        font-size: 20px;
+    }
+
+    .local-img{
+        width: 20px;
+        height: 25px;
+    }
+
+    .local {
+        gap: 16px;
+    }
+
+    .marquee {
+        width: 550px;
+    }
+
+    .slider_main_mobile {
+        max-width: 550px;
+    }
+    
+    .slider_bg_mobile {
+        max-width: 550px;
+    }
+
+    .footer-socials-link{
+        font-size: 22px;
+        line-height: 26.2px;
+    }
+
+    .small-vector{
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+
+    .form_header_label {
+        font-size: 20px;
+        line-height: 20px;
+        width: 286px;
+        height: 60px;
+    }
+
+    .form {
+        width: 400px;
+    }
+
+    .services {
+        max-width: 400px;
+    }
+
+    #flower-left {
+        transform: rotate(-205.81deg);
+        width: 196.79px;
+        height: 188.72px;
+        right: 120px;
+        bottom: -87px;
+    }
+
+    #flower-right {
+        left: 60px;
+    }
+
+    .marquee {
+        width: 470px;
+        height: 89px;
+    }
+
+    #loop-img-fox{
+       width: 40px;
+       height: 47.54px;
+    }
+
+    #loop-img-loreal{
+        width: 90px;
+        height: 50.07px;
+    }
+
+    #loop-img-elleebana{
+        width: 150px;
+        height: 43.75px;
+    }
+
+    #loop-img-nars{
+        width: 100px;
+        height: 47.33px;
+    }
+
+    #loop-img-staleks{
+        width: 100px;
+        height: 50px;
+    }
+
+    #loop-img-mac{
+        width: 120px;
+        height: 17.47px;
+    }
+
+    @keyframes moveLogos {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-45.5%);
+        }
+      }
+
+    .gallery-label {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .gallery-social-instagram {
+        font-size: 20px;
+        line-height: 24.2px;
+    }
+
+    .slider_main_mobile {
+        max-width: 470px;
+    }
+    
+    .slider_bg_mobile {
+        max-width: 470px;
+    }
+
+    .schedule-header {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .work-time {
+        font-size: 32px;
+        line-height: 38.4px;
+    }
+
+    .work-nav-list { 
+        font-size: 24px;
+        line-height: 45.86px;
+    }
+    
+    .footer-socials-link{
+        font-size: 20px;
+        line-height: 24.2px;
+    }
+
+    .footer-logo {
+        height: 41px;
+        width: 281.04px;
+    }
+
+    .bigger-vector{
+        display: none;
+    }
+
+    .footer-socials-first-row {
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+    }
+
+    .footer-nav-socials-icon {
+       position: relative;
+       top: 184px;
+    }
+
+    .footer-socials-second-row {
+        margin-top: 15px;
+    }
+
+    .footer-socials-nav-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        gap: 16px;
+    }
+
+    .footer-socials {
+        height: 306px;
+    }
+
+    .footer {
+        height: 456px;
+    }
+
+    .footer-label {
+        margin-top: 104px;
+    }
+
+    #smaller-vector{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+	.header-logo {
+        height: 80px;
+        padding-top: 38px;
+    }
+
+    #logoid {
+        position: relative;
+        width: 229.8px;
+        height: 32.99px;
+    }
+
+    .get-in-touch {
+        height: 502px;
+    }
+
+    .form {
+        padding-top: 52px;
+        width: 355px;
+        height: 502px;
+    }
+
+    .form_button {
+        margin-top: 40px;
+    }
+
+    .marquee {
+        width: 415px;
+        height: 89px;
+    }
+
+    #name_form_group{
+        margin-top: 60px;
+    }
+
+    #flower-left {
+        transform: rotate(-205.81deg);
+        right: 78px;
+        bottom: -88px;
+    }
+
+    #flower-right {
+        left: 40px;
+    }
+
+    .contact-tel {
+        top: 940px;
+    }
+
+    .button-booksy-main {
+        width: 374px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .work-schedule {
+        margin: 0px;
+    }
+
+    .flowers-bottom {
+        height: 266px;
+
+    }
+
+    .slider_main_mobile {
+        max-width: 415px;
+    }
+    
+    .slider_bg_mobile {
+        max-width: 415px;
+    }
+
+    .confirmation-title{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    #flower-right {
+        left: 15px;
+    }
+
+    .form {
+        width: 335px;
+    }
+
+    .marquee {
+        width: 365px;
+    }
+
+    .slider_main_mobile {
+        max-width: 365px;
+    }
+    
+    .slider_bg_mobile {
+        max-width: 365px;
+    }
+
+    .work-socials {
+        width: 315px;
+    }
+
+    .work-nav-list {
+        font-size: 20px;
+    }
+
+    .gallery-label {
+        font-size: 29px;
+    }
+
+    .schedule-header {
+        font-size: 32px;
+    }
+
+    .work-time {
+        font-size: 28px;
+    }
+    
+    .button-booksy-main {
+        width: 315px;
+        height: 50px;
+        font-size: 25px;
+        line-height: 25px;
+        padding: 13px 0 10px 0;
+    }
+
+    .form-information{
+        max-width:fit-content;
+    }
+
+    .services{
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    #flower-right {
+        left: -9px;
+    }
+
+    .form {
+        width: 320px;
+    }
+
+    .marquee {
+        width: 320px;
+    }
+
+    .slider_main_mobile {
+        max-width: 320px;
+    }
+    
+    .slider_bg_mobile {
+        max-width: 320px;
+    }
+
+    .button-booksy-main {
+        width: 295px;
+        height: 50px;
+        font-size: 25px;
+        line-height: 25px;
+        padding: 13px 0 10px 0;
+    }
+
+    .gallery-label {
+        font-size: 28px;
+    }
+
+    #flower-left {
+        transform: rotate(-210deg);
+        right: 30px;
+        bottom: -128px;
+    }
+}

@@ -28,16 +28,16 @@
                 <div class="socials">
                     <a
                         href="https://booksy.com/pl-pl/instant-experiences/widget/189596,171618?instant_experiences_enabled=true&ig_ix=true&fbclid=IwAR0v2qdWuGyvYovKF2hgWBPoYHck9gkvQD--xY-wEvt7xoIY6KxP5VF23uA"><img
-                            src="./img/socials/booksy.svg" style="width: 25px; height: 24px;" class="social-img-booksy"
+                            src="./img/socials/booksy.svg" style="width: 25px; height: 24px;" class="social-img-icons"
                             alt="Booksy"></a>
                     <a href="https://instagram.com/si_beautyspace_wroclaw?igshid=MjEwN2IyYWYwYw=="><img
-                            src="./img/socials/instagram.svg" class="social-img-instagram" alt="Instargam"></a>
+                            src="./img/socials/instagram.svg" class="social-img-icons" alt="Instargam"></a>
                     <a href="https://www.facebook.com/profile.php?id=100088981594732"><img
-                            src="./img/socials/facebook.svg" class="social-img-facebook" alt="Facebook"></a>
+                            src="./img/socials/facebook.svg" class="social-img-icons" alt="Facebook"></a>
                 </div>
 
                 <div class="contact-tel">
-                    <img src="./img/header/icon_phone.svg" alt="tel-logo" class="tel-logo"></a>
+                    <img src="./img/header/icon_phone.svg" alt="tel-logo" class="tel-logo">
                     <a href="tel: +48(514)526587" class="tel">+48 514 526 587</a>
                 </div>
                 <script>
@@ -59,33 +59,31 @@
             <div class="services">
                 <div class="form-information">
                     <div class="services-row">
-                        <h2 id="service"><span>Manicure</span>/ Pedicure / Brwi / Makijaz</h2>
+                        <h2 id="service" style="text-transform: uppercase;"><span>Manicure</span>/ Pedicure / Brwi / Makijaz</h2>
                     </div>
-                    <form class="form">
+                    <form action="#" id="form__body" class="form">
                         <div class="form_header">
                             <h1 class="form_header_label">Wypełnij Formularz Żebyuzyskać Konsultacjęlub Zapisać Się Na
                                 Usługę</h1>
                         </div>
-                        <div class="form_group" style="margin-top: 30px;">
-                            <input type="text" class="form_input" placeholder=" ">
-                            <label class="form_label">Imię</label>
+                        <div id="name_form_group" class="form_group">
+                            <input id="formName" type="text" name="client-name" class="form_input _req" placeholder=" ">
+                            <label for="formName" class="form_label">Imię*</label>
                         </div>
                         <div class="form_group">
-                            <input type="text" class="form_input" placeholder=" ">
-                            <label class="form_label">Telefon</label>
+                            <input id="formPhone" type="tel" name="client-phone" class="form_input _req" maxlength="9" placeholder=" ">
+                            <label for="formPhone" class="form_label">Telefon*</label>
                         </div>
                         <div class="form_group">
-                            <input type="text" class="form_input" placeholder=" ">
-                            <label class="form_label">Twój E-Mail</label>
+                            <input id="formEmail" type="email" name="client-email" class="form_input _req _email" placeholder=" ">
+                            <label for="formEmail" class="form_label">Twój E-Mail*</label>
                         </div>
-                        <div class="form_group"
-                            style="display: flex; width: 303px; flex-direction: row; column-gap: 5px;">
-                            <input id="confirm" class="checkbox-custom" name="confirm" type="checkbox">
-                            <label for="confirm" class="checkbox-custom-label">* Wyrażam Zgodę Na Kontakt Telefoniczny
-                                Lub Mailowy Przedstawicieli W Celu Przedstawienia Oferty Lub Marketingu. Zapoznaj Się
-                                Z</label>
+                        <div id="checkbox" class="form_group"
+                            style="width: 303px;">
+                            <input id="forAgreement" class="checkbox-custom _req" name="agreement" type="checkbox">
+                            <label for="forAgreement" class="checkbox-custom-label"><span>* Wyrażam Zgodę Na Kontakt Telefoniczny Lub Mailowy Przedstawicieli W Celu Przedstawienia Oferty Lub Marketingu, Zgodnie Z <a href="agreement.html">Regulaminem</a></span></label>
                         </div>
-                        <button class="form_button">WYŚLIJ</button>
+                        <button class="form_button" type="submit">WYŚLIJ</button>
                     </form>
                     <div class="flowers">
                         <img id="flower-left" src="./img/form/flower.svg" alt="flower-l">
@@ -109,14 +107,12 @@
         <div class="container">
 
             <div class="local">
-                <a href="!#">
-                    <img class="local-img" src="./img/icons/location.svg" style="width: 40.22px; height: 47px;"
+                    <img class="local-img" src="./img/icons/location.svg"
                         alt="location-img">
-                </a>
                 <div class="address">
-                    <p class="address-label">Zabrodzka 1E</p>
+                    <a href="https://maps.app.goo.gl/6cHUN7qmi1bg9Z776"><p class="address-label">Zabrodzka 1E</p></a>
                     <img class="vector" src="img/icons/vector.svg"></span>
-                    <p class="address-label">Ul. Generała Władysława Sikorskiego 7E</p>
+                    <a href="https://maps.app.goo.gl/79psTyZzybMKNVMq9"><p class="address-label">Ul. Generała Władysława Sikorskiego 7E</p></a>
                 </div>
             </div>
         </div>
@@ -161,22 +157,24 @@
         <div class="container">
             <div class="marquee">
                 <div class="marquee-wrapper">
-                    <img src="img/loop-slider/fox.png" style="height: 83px; width: 69.83px;" alt="fox">
-                    <img src="img/loop-slider/loreal.png" style="height: 73px; width: 131.22px;" alt="loreal">
-                    <img src="img/loop-slider/elleebana.svg" style="height: 62.13px; width: 213px;" alt="elleebana">
-                    <img src="img/loop-slider/nars.svg" style="height: 70.53px; width: 149px;" alt="nars">
-                    <img src="img/loop-slider/staleks.svg" style="height: 90px; width: 180px;" alt="staleks">
-                    <img src="img/loop-slider/mac.svg" style="height: 22.58px; width: 155.13px;" alt="mac">
-                    <img src="img/loop-slider/fox.png" style="height: 83px; width: 69.83px;" alt="fox">
-                    <img src="img/loop-slider/loreal.png" style="height: 73px; width: 131.22px;" alt="loreal">
-                    <img src="img/loop-slider/elleebana.svg" style="height: 62.13px; width: 213px;" alt="elleebana">
-                    <img src="img/loop-slider/nars.svg" style="height: 70.53px; width: 149px;" alt="nars">
-                    <img src="img/loop-slider/staleks.svg" style="height: 90px; width: 180px;" alt="staleks">
-                    <img src="img/loop-slider/mac.svg" style="height: 22.58px; width: 155.13px;" alt="mac">
-                    <img src="img/loop-slider/fox.png" style="height: 83px; width: 69.83px;" alt="fox">
-                    <img src="img/loop-slider/loreal.png" style="height: 73px; width: 131.22px;" alt="loreal">
+                    <img id="loop-img-fox" src="img/loop-slider/fox.png" alt="fox">
+                    <img id="loop-img-loreal" src="img/loop-slider/loreal.png" alt="loreal">
+                    <img id="loop-img-elleebana" src="img/loop-slider/elleebana.svg" alt="elleebana">
+                    <img id="loop-img-nars" src="img/loop-slider/nars.svg" alt="nars">
+                    <img id="loop-img-staleks" src="img/loop-slider/staleks.svg" alt="staleks">
+                    <img id="loop-img-mac" src="img/loop-slider/mac.svg" alt="mac">
+                    <img id="loop-img-fox" src="img/loop-slider/fox.png" alt="fox">
+                    <img id="loop-img-loreal" src="img/loop-slider/loreal.png" alt="loreal">
+                    <img id="loop-img-elleebana" src="img/loop-slider/elleebana.svg" alt="elleebana">
+                    <img id="loop-img-nars" src="img/loop-slider/nars.svg" alt="nars">
+                    <img id="loop-img-staleks" src="img/loop-slider/staleks.svg" alt="staleks">
+                    <img id="loop-img-mac" src="img/loop-slider/mac.svg" alt="mac">
+                    <img id="loop-img-fox" src="img/loop-slider/fox.png" alt="fox">
+                    <img id="loop-img-loreal" src="img/loop-slider/loreal.png" alt="loreal">
                 </div>
             </div>
+
+            
         </div>
     </section>
 
@@ -270,7 +268,7 @@
                             </div>
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/4.png" style="width: 300px;" alt="Picture" data-index="3">
+                                    <img id="slider-main-photo-4" src="img/slider/4.png" style="width: 300px;" alt="Picture" data-index="3">
                                 </div>
                             </div>
                             <div class="swiper-slide slider__item">
@@ -313,6 +311,76 @@
                     </div>
                 </div>
 
+                <div class="gallery-slider-mobile">
+
+                <div class="swiper slider slider_bg_mobile">
+                    <div class="swiper-wrapper slider__wrapper">
+
+                        <div class="swiper-slide slider__item">
+                            <div class="slider__img">
+                                <img src="img/slider/mob1.1.png" alt="Picture">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <div class="slider__img">
+                                <img src="img/slider/mob1.2.png" alt="Picture">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <div class="slider__img">
+                                <img src="img/slider/mob1.3.png" alt="Picture">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <div class="slider__img">
+                                <img src="img/slider/mob1.4.png" alt="Picture">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <div class="slider__img">
+                                <img src="img/slider/mob1.5.png" alt="Picture">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div dir="rtl" class="swiper slider slider_main_mobile">
+                    <div class="swiper-wrapper slider__wrapper">
+
+                        <div class="swiper-slide slider__item">
+                            <div class="slider__img">
+                                <img src="img/slider/mob2.1.png" alt="Picture">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <div class="slider__img">
+                                <img src="img/slider/mob2.2.png" alt="Picture">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <div class="slider__img">
+                                <img src="img/slider/mob2.3.png" alt="Picture">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <div class="slider__img">
+                                <img src="img/slider/mob2.4.png" alt="Picture">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <div class="slider__img">
+                                <img src="img/slider/mob2.5.png" alt="Picture">
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider__item">
+                            <div class="slider__img">
+                                <img src="img/slider/mob2.6.png" alt="Picture">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
                 <div class="container-gallery-socials">
                     <div class="gallery-instagram-link">
                         <a class="gallery-social-instagram"
@@ -327,74 +395,65 @@
             </div>
             <div class="pop-up">
                 <div class="container-pop-up">
-                    <span>&times;</span>
+                    <div class="span-close">
+                        <img class="span-close-icon" src="./img/icons/close-icon.svg" alt="close-icon">
+                    </div>
                     <div class="swiper slider slider_main_zoom">
                         <div class="swiper-wrapper slider__wrapper">
 
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/3.1.svg" style="width: 685.71px; height: 600px;"
-                                        alt="Picture-zoom" data-index="0">
+                                    <img src="img/slider/3.1.svg" alt="Picture-zoom" data-index="0">
                                 </div>
                             </div>
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/3.2.svg" style="width: 673px; height: 600px;"
-                                        alt="Picture-zoom" data-index="1">
+                                    <img src="img/slider/3.2.svg" alt="Picture-zoom" data-index="1">
                                 </div>
                             </div>
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/3.3.svg" style="width: 642.86px; height: 600px;"
-                                        alt="Picture-zoom" data-index="2">
+                                    <img src="img/slider/3.3.svg" alt="Picture-zoom" data-index="2">
                                 </div>
                             </div>
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/3.4.svg" style="width: 580.86px; height: 600px;"
-                                        alt="Picture-zoom" data-index="3">
+                                    <img src="img/slider/3.4.svg" alt="Picture-zoom" data-index="3">
                                 </div>
                             </div>
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/3.5.svg" style="width: 685.71px; height: 600px;"
-                                        alt="Picture-zoom" data-index="4">
+                                    <img src="img/slider/3.5.svg" alt="Picture-zoom" data-index="4">
                                 </div>
                             </div>
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/3.6.svg" style="width: 620.14px; height: 600px;"
-                                        alt="Picture-zoom" data-index="5">
+                                    <img src="img/slider/3.6.svg" alt="Picture-zoom" data-index="5">
                                 </div>
                             </div>
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/3.7.svg" style="width: 621.43px; height: 600px;"
-                                        alt="Picture-zoom" data-index="6">
+                                    <img src="img/slider/3.7.svg" alt="Picture-zoom" data-index="6">
                                 </div>
                             </div>
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/3.8.svg" style="width: 450.71px; height: 600px;"
-                                        alt="Picture-zoom" data-index="7">
+                                    <img src="img/slider/3.8.svg" alt="Picture-zoom" data-index="7">
                                 </div>
                             </div>
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/3.9.svg" style="width: 771.43px; height: 600px;"
-                                        alt="Picture-zoom" data-index="8">
+                                    <img src="img/slider/3.9.svg" alt="Picture-zoom" data-index="8">
                                 </div>
                             </div>
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/3.10.svg" style="width: 450.71px; height: 600px;"
-                                        alt="Picture-zoom" data-index="9">
+                                    <img src="img/slider/3.10.svg" alt="Picture-zoom" data-index="9">
                                 </div>
                             </div>
                             <div class="swiper-slide slider__item">
                                 <div class="slider__img">
-                                    <img src="img/slider/3.11.svg" style="width: 600px; height: 600px;"
-                                        alt="Picture-zoom" data-index="10">
+                                    <img src="img/slider/3.11.svg" alt="Picture-zoom" data-index="10">
                                 </div>
                             </div>
                         </div>
@@ -425,20 +484,20 @@
             <div class="footer-socials">
 
                 <div class="footer-socials-first-row">
-                    <div class="footer-logo">
-                        <img src="img/footer/footer-logo.svg" alt="footer-logo">
+                    <div>
+                        <img class="footer-logo" src="img/footer/footer-logo.svg" alt="footer-logo">
                     </div>
-                    <img src="img/footer/vector-bigger.svg" alt="vector-bigger">
+                    <img class="bigger-vector" src="img/footer/vector-bigger.svg" alt="vector-bigger">
                     <nav class="footer-nav-socials-icon">
                         <ul class="footer-nav-socials-icon-list">
                             <li class="footer-nav-socials-icon-item"><a href="https://booksy.com/pl-pl/instant-experiences/widget/189596,171618?instant_experiences_enabled=true&ig_ix=true&fbclid=IwAR0v2qdWuGyvYovKF2hgWBPoYHck9gkvQD--xY-wEvt7xoIY6KxP5VF23uA" class="footer-nav-socials-icon-link">
-                                <img src="img/footer/footer-icon-booksy.svg" class="social-img-booksy" style="width: 25px; height: 24px;" alt="footer-icon-booksy">
+                                <img src="img/footer/footer-icon-booksy.svg" class="social-img-icons" style="width: 25px; height: 24px;" alt="footer-icon-booksy">
                             </a></li>
                             <li class="footer-nav-socials-icon-item"><a href="https://instagram.com/si_beautyspace_wroclaw?igshid=MjEwN2IyYWYwYw==" class="footer-nav-socials-icon-link">
-                                <img src="img/footer/footer-icon-instagram.svg" class="social-img-instagram" alt="footer-icon-instagram">
+                                <img src="img/footer/footer-icon-instagram.svg" class="social-img-icons" alt="footer-icon-instagram">
                             </a></li>
                             <li class="footer-nav-socials-icon-item"><a href="https://www.facebook.com/profile.php?id=100088981594732" class="footer-nav-socials-icon-link">
-                                <img src="img/footer/footer-icon-facebook.svg" class="social-img-facebook" alt="footer-icon-facebook">
+                                <img src="img/footer/footer-icon-facebook.svg" class="social-img-icons" alt="footer-icon-facebook">
                             </a></li>
                         </ul>
                     </nav>
@@ -447,18 +506,18 @@
                 <div class="footer-socials-second-row">
                     <nav class="footer-socials-nav">
                         <ul class="footer-socials-nav-list">
-                            <li class="footer-socials-nav-item" style="width: 140px;"><a class="footer-socials-link"
+                            <li class="footer-socials-nav-item"><a class="footer-socials-link"
                                     href="https://instagram.com/si_beautyspace_wroclaw?igshid=MjEwN2IyYWYwYw==">Instagram</a>
                             </li>
-                            <li style="height: 16px;">
+                            <li class="small-vector">
                                 <img src="img/footer/vector_smaller.svg" alt="vector-smaller">
                             </li>
-                            <li class="footer-socials-nav-item" style="width: 138px;"><a class="footer-socials-link"
+                            <li class="footer-socials-nav-item"><a class="footer-socials-link"
                                     href="https://www.facebook.com/profile.php?id=100088981594732">Facebook</a></li>
-                            <li style="height: 16px;">
+                            <li id="smaller-vector" class="small-vector">
                                 <img src="img/footer/vector_smaller.svg" alt="vector-smaller">
                             </li>
-                            <li class="footer-socials-nav-item" style="width: 108px;"><a class="footer-socials-link"
+                            <li id="footer-socials-nav-item-3" class="footer-socials-nav-item"><a class="footer-socials-link"
                                     href="https://booksy.com/pl-pl/instant-experiences/widget/189596,171618?instant_experiences_enabled=true&ig_ix=true&fbclid=IwAR0v2qdWuGyvYovKF2hgWBPoYHck9gkvQD--xY-wEvt7xoIY6KxP5VF23uA">Booksy</a>
                             </li>
                         </ul>
@@ -474,7 +533,16 @@
     </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js//jquery.maskedinput.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#formPhone").mask("+48-(999)-999-999");
+        });
+        </script>
 </body>
 
 </html>

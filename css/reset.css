@@ -58,11 +58,6 @@ img {
 	vertical-align: top;
 }
 
-/* img, svg {
-	max-width: 100%;
-	height: auto;
-} */
-
 /* Form */
 
 input, textarea, button, select {
@@ -106,7 +101,7 @@ button {
     font-size: 25px;
     font-weight: 600;
     line-height: 25px;
-    padding: 10px, 20px, 10px, 20px;
+    padding: 11px 0 10px 0;
 }
 
 label {
@@ -117,9 +112,14 @@ legend {
 	display: block;
 }
 
-button:focus,
 button:hover {
     background: #1A1A19;
     color: #FFFEFA;
     border: 1px solid #FFFEFA;
+}
+
+button:active {
+    background: #FFFEFA;
+    color: #1A1A19;
+    border: 1px solid #1A1A19;
 }
