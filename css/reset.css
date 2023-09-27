@@ -25,13 +25,10 @@ a:active {
 /* Links */
 
 a, a:link, a:visited  {
-    /* color: inherit; */
     text-decoration: none;
-    /* display: inline-block; */
 }
 
 a:hover  {
-    /* color: inherit; */
     text-decoration: none;
 }
 
@@ -112,14 +109,10 @@ legend {
 	display: block;
 }
 
-button:hover {
+button:hover,
+button:focus {
     background: #1A1A19;
     color: #FFFEFA;
     border: 1px solid #FFFEFA;
 }
 
-button:active {
-    background: #FFFEFA;
-    color: #1A1A19;
-    border: 1px solid #1A1A19;
-}

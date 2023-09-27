@@ -8,11 +8,6 @@ body {
     background-color: #ffffff;
 }
 
-:root {
-	/* --sizeindex: calc(1vw + 1vh); */
-	/* --transition: .75s cubic-bezier(.2, .6, 0, 1); */
-}
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -112,11 +107,6 @@ body {
     align-items: center;
 }
 
-/* .services-row {
-    width: 656px;
-    height: 53px;
-} */
-
 #service {
     font-family: 'GAQIRE';
     font-size: 35px;
@@ -173,7 +163,7 @@ body {
     position: absolute;
     top: 3px;
     left: 0;
-    transition:0.4s;
+    transition:0.25s;
     font-weight: 500;
     color:#ffffff;
     z-index: -1;
@@ -202,7 +192,7 @@ body {
     border-bottom: 1px solid #FFFEFA;
     background-color: transparent;
     outline: none;
-    transition: 0.4s;
+    transition: 0.25s;
     color: #FFFFFF;
 }
 
