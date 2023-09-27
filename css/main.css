@@ -200,7 +200,7 @@ body {
     height: 20px;
     border: none;
     border-bottom: 1px solid #FFFEFA;
-    /* background-color: transparent; */
+    background-color: transparent;
     outline: none;
     transition: 0.4s;
     color: #FFFFFF;
@@ -251,7 +251,7 @@ body {
     position: absolute;
     top: 2.1px;
     left: 2.1px;
-    background-color: #BEA97D;
+    background-color: #1A1A19;
     border-radius: 2px;
     transform: scale(0);
 }

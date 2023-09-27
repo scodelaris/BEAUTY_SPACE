@@ -466,9 +466,13 @@
 
     .contact-tel {
         position: relative;
-        top: 948px;
+        top: 985px;
         margin: auto;
     } 
+
+    .address-label {
+        text-decoration: underline;
+    }
 
     .get-in-touch {
         height: auto;
@@ -499,7 +503,7 @@
     .buttons {
         position: relative;
         top: 330px;
-        gap: 89px;
+        gap: 115px;
     }
 
     .button-booksy {
@@ -625,7 +629,7 @@
     }
 
     .contact-tel {
-        top: 870px;
+        top: 905px;
     }
 
     .tel-logo {
@@ -643,6 +647,7 @@
     }
 
     .local {
+        margin-top: 25px;
         gap: 16px;
     }
 
@@ -876,7 +881,7 @@
     }
 
     .contact-tel {
-        top: 940px;
+        top: 975px;
     }
 
     .button-booksy-main {
@@ -969,8 +974,21 @@
 
 @media only screen and (max-width: 375px) {
 
+    .location{
+        height: 360px;
+    }
+
+    .buttons {
+        top: 360px;
+    }
+
+    .contact-tel {
+        top: 1040px;
+    }
+
     #flower-right {
         left: -9px;
+        top: 659px;
     }
 
     .form {

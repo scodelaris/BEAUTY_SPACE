@@ -83,21 +83,20 @@ mainSwiper.allowTouchMove = false;
 var mainSwiperMob = new Swiper('.slider_main_mobile', {
 
     autoplay: {
-        delay: 3500,
+        delay: 2500,
         stopOnLastSlide: false,
         disableOnInteraction: false,
     },
 
-    speed: 3500,
+    speed: 2500,
+
+    sensitivity: 5,
 
     slidesPerView: 'auto',
 
     breakpoints: {
         320: {
             spaceBetween: 24,
-        },
-        1024: {
-            spaceBetween: 26,
         }
     },
 
@@ -106,27 +105,24 @@ var mainSwiperMob = new Swiper('.slider_main_mobile', {
 const sliderBgMob = new Swiper('.slider_bg_mobile', {
 
     autoplay: {
-        delay: 3500,
+        delay: 2500,
         stopOnLastSlide: false,
         disableOnInteraction: false,
     },
 
-    speed: 3500,
+    speed: 2500,
+
+    sensitivity: 5,
 
     slidesPerView: 'auto',
 
     breakpoints: {
         320: {
             spaceBetween: 24,
-        },
-        1020: {
-            spaceBetween: 26,
         }
     },
 
 });
-
-// sliderBgMob.controller.control = mainSwiperMob;
 
 var zoomSwiper = new Swiper('.slider_main_zoom', {
 
