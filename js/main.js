@@ -6,11 +6,8 @@ var mainSwiper = new Swiper('.slider_main', {
         stopOnLastSlide: false,
         disableOnInteraction: false,
     },
-
     speed: 3500,
-
     slidesPerView: 'auto',
-
     breakpoints: {
         320: {
             spaceBetween: 24,
@@ -38,19 +35,14 @@ var mainSwiper = new Swiper('.slider_main', {
 });
 
 const sliderBg = new Swiper('.slider_bg', {
-
     loop: true,
-
     autoplay: {
         delay: 3500,
         stopOnLastSlide: false,
         disableOnInteraction: false,
     },
-
     speed: 3500,
-
     slidesPerView: 'auto',
-
     breakpoints: {
         320: {
             spaceBetween: 24,
@@ -82,46 +74,16 @@ mainSwiper.allowTouchMove = false;
 
 var mainSwiperMob = new Swiper('.slider_main_mobile', {
 
-    // autoplay: {
-    //     delay: 2500,
-    //     stopOnLastSlide: false,
-    //     disableOnInteraction: false,
-    // },
-
-    // speed: 2500,
-
-    loop: true,
-
+    freeMode: true,
     slidesPerView: 'auto',
-
-    breakpoints: {
-        320: {
-            spaceBetween: 24,
-        }
-    },
-
+    spaceBetween: 24,
 });
 
 const sliderBgMob = new Swiper('.slider_bg_mobile', {
 
-    // autoplay: {
-    //     delay: 2500,
-    //     stopOnLastSlide: false,
-    //     disableOnInteraction: false,
-    // },
-
-    // speed: 2500,
-
-    loop: true,
-
+    freeMode: true,
     slidesPerView: 'auto',
-
-    breakpoints: {
-        320: {
-            spaceBetween: 24,
-        }
-    },
-
+    spaceBetween: 24,
 });
 
 var zoomSwiper = new Swiper('.slider_main_zoom', {
@@ -130,23 +92,17 @@ var zoomSwiper = new Swiper('.slider_main_zoom', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
     },
-
     keyboard: {
         enabled: true,
         onlyInViewport: true,
         pageUpDown: true,
     },
-
     mousewheel: {
         sensitivity: 1,
     },
-
     slidesPerView: 1,
-
     spaceBetween: 150,
-
     grabCursor: true,
-
     speed: 900,
 });
 
