@@ -10,8 +10,8 @@ $mail ->CharSet = 'UTF-8';
 $mail ->setLanguage('ru', 'phpmailer/language/');
 $mail ->IsHTML(true);
 
-$mail ->setFrom('chaliyjegor395@gmail.com');
-$mail ->addAddress('chaliyjegor395@gmail.com');
+$mail ->setFrom('');
+$mail ->addAddress('');
 $mail ->Subject = 'Заявка на сайте';
 
 $body = '<h1>Идентификационные данные клиента:</h1>';
